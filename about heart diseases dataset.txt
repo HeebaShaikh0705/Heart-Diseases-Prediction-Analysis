@@ -1,0 +1,110 @@
+# Sex
+(1 = male, 0 = female)
+
+# Chest pain type
+(Scale 1 - 4)
+1->Heart-related chest pain
+2->Unusual heart pain
+3->Chest pain not related to the heart
+4->No chest pain at all
+
+# BP (mm Hg)
+(Resting blood pressure from 94 - 200)
+Measures how strongly blood pushes against artery walls,
+High blood pressure means the heart is working harder.
+->94 mm Hg → Normal / low-normal
+->120–139 mm Hg → High
+->140–200 mm Hg → Very high / dangerous
+
+# Cholesterol (mg/dl)
+(Cholesterol Level from 126 - 564)
+Measures fat in the blood,
+Too much cholesterol can block blood flow to the heart.
+-> < 200 Normal
+-> 200 – 239 Borderline high
+-> ≥ 240 High
+-> ≥ 300	Very dangerous
+
+# FBS over 120 (mg/dl)
+(Fasting Blood Sugar 1 = Yes, 0 = No)
+Checks blood sugar level after fasting
+->1 = High sugar
+->0 = Normal sugar
+High sugar can damage blood vessels
+
+# EKG (Electrokardiogram) results
+(Resting electrocardiogram results from 0 - 2)
+EKG/ECG is an Heart electricity test.
+What each value means
+0 = Normal
+-> Heart’s electrical activity is normal
+-> Heart is beating properly
+1 = Slight problem
+-> Heart signals are a bit abnormal
+-> May show stress or minor heart issues
+2 = Bigger problem
+-> Heart muscle is thicker or enlarged
+-> Heart has to work harder than normal
+
+# Max HR
+(Maximum heart rate achieved during exercise from 71 - 202)
+The fastest the heart beats during exercise
+A healthy heart can beat faster when needed
+Resting heart rate: ~60–100 bpm
+-> < 100 Too low (possible problem)
+-> 100 – 140 Okay / average
+-> 140 – 190 Good (depends on age)      
+
+# Exercise angina
+(1 = Yes, 0 = No)
+Chest pain during exercise,
+Means the heart may not be getting enough oxygen.
+
+# ST depression
+(ST depression induced by exercise relative to rest from 0 - 6.2)
+ST depression is a number doctors get from an ECG/EKG test during exercise (stress test),
+It shows how much the heart is struggling to get enough oxygen when you exercise.
+-> 0 – 1 → Normal / no stress on the heart
+-> 1 – 2 → Mild problem
+-> > 2 → Serious heart stress
+
+# Slope of ST
+( from 1 - 3)
+This describes how the heart’s ECG line behaves during exercise.
+1 = Upward slope
+-> Heart is responding normally
+-> Best / healthy sign
+2 = Flat slope
+-> Heart may not be getting enough oxygen
+-> Warning sign
+3 = Downward slope
+-> Strong sign of heart stress
+-> Most dangerous
+Higher number = worse condition.
+
+# Number of vessel 
+( from 0 - 3)
+Shows how many major blood vessels are blocked or damaged.
+-> 0 → No blocked vessels (healthy)
+-> 1 → One vessel blocked
+-> 2 → Two vessels blocked
+-> 3 → Three vessels blocked (very serious)
+More vessels = more severe heart disease
+
+# Thallium
+( from 3 - 7)
+This is a special heart scan where a radioactive dye called thallium is injected.
+It shows how well blood flows to the heart muscle, especially during exercise.
+Blood flow quality.
+-> 3 = Normal → All pipes deliver water fine
+-> 6 = Fixed defect → Some pipes are broken permanently → plants always get less water
+-> 7 = Reversible defect → Some pipes clog only when water demand is high → plants dry out during stress but fine later
+
+#(String) Heart Disease
+It's the Final Diagnosis 
+-> 0 =>Absence 56% 
+-> 1 => Presence 44%
+
+Analysis plan:=
+
+compare age and sex along with all the above given columns 

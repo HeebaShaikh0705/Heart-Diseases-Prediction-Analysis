@@ -1,0 +1,19 @@
+=>male vs female who is prone to heartattack
+#Sex vs #Heart Disease vs #age
+
+=>Heart Test Analysis (male vs female vs age)
+#EKG
+#ST Depression
+#Slope of ST
+
+=>Heart During Exercise
+#MaxHR
+#Exercise angina
+#Thallium
+
+=>Indications of Early Heart Attack
+#Chest Pain Type
+#BP
+#Cholesterol
+#FBS
+#No of Vessel
